@@ -20,9 +20,9 @@
     // so that we can avoid specifying it here?
     // Refer: https://www.typescriptlang.org/tsconfig#types
     "typeRoots": [
-      "node_modules/terriajs/lib/ThirdParty",
+      "node_modules/leylinesjs/lib/ThirdParty",
       // need this if we are in a yarn workspace
-      "../../node_modules/terriajs/lib/ThirdParty"
+      "../../node_modules/leylinesjs/lib/ThirdParty"
     ]
   },
   "include": ["src"]
