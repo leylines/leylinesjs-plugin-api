@@ -1,6 +1,6 @@
-import ViewState from "terriajs/lib/ReactViewModels/ViewState";
-import Terria from "terriajs/lib/Models/Terria";
-import Workbench from "terriajs/lib/Models/Workbench";
+import ViewState from "leylinesjs/lib/ReactViewModels/ViewState";
+import Terria from "leylinesjs/lib/Models/Terria";
+import Workbench from "leylinesjs/lib/Models/Workbench";
 
 export interface TerriaPlugin {
   name: string;
