@@ -3,7 +3,7 @@ export { default as AnimatedSpinnerIcon } from "leylinesjs/lib/Styled/AnimatedSp
 export { default as Box, IBoxProps } from "leylinesjs/lib/Styled/Box";
 export { default as Button } from "leylinesjs/lib/Styled/Button";
 export { default as Checkbox } from "leylinesjs/lib/Styled/Checkbox/Checkbox";
-export { default as Icon, IconGlyph } from "leylinesjs/lib/Styled/Icon";
+export { default as Icon, StyledIcon, IconGlyph } from "leylinesjs/lib/Styled/Icon";
 export { default as Input, StyledTextArea } from "leylinesjs/lib/Styled/Input";
 export { default as Select } from "leylinesjs/lib/Styled/Select";
 export {

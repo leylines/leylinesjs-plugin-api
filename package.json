@@ -1,6 +1,6 @@
 {
   "name": "leylinesjs-plugin-api",
-  "version": "0.0.1-alpha.5",
+  "version": "0.0.1-alpha.6",
   "description": "An (experimental) API for writing plugins for terriajs.",
   "repository": "https://github.com/leylines/leylinesjs-plugin-api",
   "license": "Apache-2.0",
