@@ -1,10 +1,21 @@
+export { default as TerriaError } from "leylinesjs/lib/Core/TerriaError";
 export { MapItem } from "leylinesjs/lib/ModelMixins/MappableMixin";
-export { default as BoxDrawing } from "leylinesjs/lib/Models/BoxDrawing";
+export {
+  BoxDrawingChangeParams,
+  default as BoxDrawing
+} from "leylinesjs/lib/Models/BoxDrawing";
 export { default as CatalogMemberFactory } from "leylinesjs/lib/Models/Catalog/CatalogMemberFactory";
+export { default as SplitItemReference } from "leylinesjs/lib/Models/Catalog/CatalogReferences/SplitItemReference";
+export { default as Cesium } from "leylinesjs/lib/Models/Cesium";
 export { default as CommonStrata } from "leylinesjs/lib/Models/Definition/CommonStrata";
 export { default as CreateModel } from "leylinesjs/lib/Models/Definition/CreateModel";
-export { default as Model } from "leylinesjs/lib/Models/Definition/Model";
+export {
+  BaseModel,
+  default as Model
+} from "leylinesjs/lib/Models/Definition/Model";
 export { default as updateModelFromJson } from "leylinesjs/lib/Models/Definition/updateModelFromJson";
+export { default as HasLocalData } from "leylinesjs/lib/Models/HasLocalData";
+
 export {
   SelectableDimensionButton,
   SelectableDimensionCheckbox,
@@ -25,16 +36,19 @@ export {
 export { default as Workbench } from "leylinesjs/lib/Models/Workbench";
 export { default as ViewState } from "leylinesjs/lib/ReactViewModels/ViewState";
 export { default as MapNavigationItemController } from "leylinesjs/lib/ViewModels/MapNavigation/MapNavigationItemController";
-
-import * as MapToolbar from "leylinesjs/lib/ViewModels/MapNavigation/MapToolbar";
-export { MapToolbar };
-
-import * as ViewingControlsMenu from "leylinesjs/lib/ViewModels/ViewingControlsMenu";
-export { ViewingControlsMenu };
-
+export { SelectableDimensionWorkflow, runWorkflow };
 import {
   default as SelectableDimensionWorkflow,
   runWorkflow
 } from "leylinesjs/lib/Models/Workflows/SelectableDimensionWorkflow";
-export { SelectableDimensionWorkflow, runWorkflow };
-export { default as TerriaError } from "terriajs/lib/Core/TerriaError";
+
+import * as MapToolbar from "leylinesjs/lib/ViewModels/MapNavigation/MapToolbar";
+export { MapToolbar };
+import * as ViewingControlsMenu from "leylinesjs/lib/ViewModels/ViewingControlsMenu";
+export { ViewingControlsMenu };
+import * as WorkbenchItem from "leylinesjs/lib/ViewModels/WorkbenchItem";
+export { WorkbenchItem };
+import * as FeatureInfoPanel from "leylinesjs/lib/ViewModels/FeatureInfoPanel";
+export { FeatureInfoPanel };
+import * as UploadDataTypes from "leylinesjs/lib/ViewModels/UploadDataTypes";
+export { UploadDataTypes };

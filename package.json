@@ -1,6 +1,6 @@
 {
   "name": "leylinesjs-plugin-api",
-  "version": "0.0.1-alpha.6",
+  "version": "0.0.1-alpha.7",
   "description": "An (experimental) API for writing plugins for terriajs.",
   "repository": "https://github.com/leylines/leylinesjs-plugin-api",
   "license": "Apache-2.0",
@@ -15,5 +15,8 @@
     "prettier": "^2.6.1",
     "leylinesjs": "https://github.com/leylines/leylinesjs",
     "typescript": "^3.9.4"
+  },
+  "scripts": {
+    "build": "tsc"
   }
 }
