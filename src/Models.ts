@@ -2,7 +2,7 @@ export { default as TerriaError } from "leylinesjs/lib/Core/TerriaError";
 export { MapItem } from "leylinesjs/lib/ModelMixins/MappableMixin";
 export {
   BoxDrawingChangeParams,
-  default as BoxDrawing
+  default as BoxDrawing,
 } from "leylinesjs/lib/Models/BoxDrawing";
 export { default as CatalogMemberFactory } from "leylinesjs/lib/Models/Catalog/CatalogMemberFactory";
 export { default as SplitItemReference } from "leylinesjs/lib/Models/Catalog/CatalogReferences/SplitItemReference";
@@ -42,8 +42,8 @@ import {
   runWorkflow
 } from "leylinesjs/lib/Models/Workflows/SelectableDimensionWorkflow";
 
-
 import * as MapToolbar from "leylinesjs/lib/ViewModels/MapNavigation/MapToolbar";
+
 export { MapToolbar };
 import * as ViewingControlsMenu from "leylinesjs/lib/ViewModels/ViewingControlsMenu";
 export { ViewingControlsMenu };
@@ -53,3 +53,4 @@ import * as FeatureInfoPanel from "leylinesjs/lib/ViewModels/FeatureInfoPanel";
 export { FeatureInfoPanel };
 import * as UploadDataTypes from "leylinesjs/lib/ViewModels/UploadDataTypes";
 export { UploadDataTypes };
+export { addFileDragDropListener } from "terriajs/lib/ViewModels/FileDragDropListener";
