@@ -5,6 +5,7 @@ export {
   ActionButtonProps
 } from "leylinesjs/lib/ReactViews/ActionBar/ActionButton";
 export { default as WorkflowPanel } from "leylinesjs/lib/ReactViews/Workflow/WorkflowPanel";
+export { default as DataPreviewMap } from "leylinesjs/lib/ReactViews/Preview/DataPreviewMap";
 export { default as AnimatedSpinnerIcon } from "leylinesjs/lib/Styled/AnimatedSpinnerIcon";
 export { default as Box, IBoxProps } from "leylinesjs/lib/Styled/Box";
 export { default as Button } from "leylinesjs/lib/Styled/Button";
